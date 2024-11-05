@@ -1,1 +1,1 @@
-# C-practice
+# sum-practice
