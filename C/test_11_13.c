@@ -275,30 +275,31 @@
 
 
 // 希尔排序
-void shellsort(int *v, int n)
-{
-    int gap, i, j, temp;
+// void shellsort(int *v, int n)
+// {
+//     // gap，用于分组的间隔
+//     int gap, i, j, temp;
 
-    for (gap = n / 2; gap > 0; gap /= 2)
-    {
-        for (i = gap; i < n; i++)
-        {
-            for (j = i - gap; j >= 0 && v[j] > v[j+gap]; j -= gap)
-            {
-                temp = v[j];
-                v[j] = v[j + gap];
-                v[j + gap] = temp;
-            }
-        }
-    }
-}
-#include <string.h>
-int main()
-{
-    int arr[] = {5, 3, 8, 4, 2};
-    shellsort(arr, 5);
-    for (int i = 0; i < 5; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-}
+//     for (gap = n / 2; gap > 0; gap /= 2)
+//     {
+//         for (i = gap; i < n; i++)
+//         {
+//             for (j = i - gap; j >= 0 && v[j] > v[j+gap]; j -= gap)
+//             {
+//                 temp = v[j];
+//                 v[j] = v[j + gap];
+//                 v[j + gap] = temp;
+//             }
+//         }
+//     }
+// }
+
+// int main()
+// {
+//     int arr[] = {5, 3, 8, 4, 2};
+//     shellsort(arr, 5);
+//     for (int i = 0; i < 5; i++)
+//     {
+//         printf("%d ", arr[i]);
+//     }
+// }
