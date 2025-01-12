@@ -10,6 +10,7 @@
 《C程序设计语言》（The C Programming Language）
 《Hello 算法》
 《C++ Primer Plus》
+《深入浅出程序设计竞赛》
 
 ## 贡献
 

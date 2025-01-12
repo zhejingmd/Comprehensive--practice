@@ -85,9 +85,12 @@
     对于一个有N(N<=100000)个顶点的凸多边形，它的任何三条对角线都不会交于一点
     请求出这个多边形内部对角线交点的个数
 */
-#include <iostream>
-using namespace std;
-int main()
-{
-    
-}
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     unsigned long long n;
+//     cin >> n;
+//     cout << n*(n-1)/2*(n-2)/3*(n-3)/4 << endl;
+//     return 0;
+// }
